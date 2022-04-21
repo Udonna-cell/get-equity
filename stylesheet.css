@@ -1,0 +1,124 @@
+html, body {
+    overflow: hidden;
+    background-color:rgba(21, 255, 0, 0.5);
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#main-container {
+    background-color: #ffffff;
+}
+
+#header img {
+    width: 200px;
+    height: auto;
+    float: right;
+    padding: 25px 50px 50px 50px;
+    background-color: #ffffff;
+}
+
+.first-texts {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.one-row {
+    display: flex;
+    padding-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.two-columns {
+flex:auto;
+  padding-left: 50px;
+}
+
+.chair {
+    width: 325px;
+    height: auto;
+    margin-top: -100px;
+    padding-left: 110px;
+}
+
+.button {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 190px;
+}
+
+
+/* For Mobile Devices */
+
+@media only screen and (max-width:420px) {
+    html, body {
+    background-color:#ffffff;
+    margin: 0px;
+    overflow:visible;
+    }
+}
+
+
+@media only screen and (max-width:420px) {
+    #main-container {
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    #header img {
+        float: none;
+    }
+}
+
+
+@media only screen and (max-width:420px) {
+    .first-texts {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width:420px) {
+    .two-columns {
+        padding-left: 25px;
+      }
+}
+
+@media only screen and (max-width:420px) {
+    .chair {
+        width: 205px;
+        height: auto;
+        margin: 0px;
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width:420px) {
+    .button {
+        background-color: black;
+        color: #ffffff;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 6px;
+        max-width: 100%;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    h3 {
+        font-size: 12px;
+        margin-top: 150px;
+    }
+}
