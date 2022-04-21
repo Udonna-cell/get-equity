@@ -83,7 +83,7 @@ h3 {
 
 @media only screen and (max-width:420px) {
     .chair {
-        width: 150px;
+        width: 100px;
         height: auto;
         margin: 0px;
         padding: 10px;
