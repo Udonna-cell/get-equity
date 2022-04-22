@@ -56,64 +56,44 @@ h3 {
     html, body {
     margin: 0px;
     }
-}
 
-@media only screen and (max-width:420px) {
     #header img {
         float: none;
     }
-}
 
-@media only screen and (max-width:420px) {
     .first-texts {
         font-size: 20px;
         padding-left: 25px;
         padding-top: 10px;
     }
-}
 
-@media only screen and (max-width:420px) {
     .one-row {
         display:flex;
         align-items: center;
         justify-content: center;
       }
-}
 
-@media only screen and (max-width:420px) {
-    .two-columns {
-        /* padding: 25px; */
-      }
-}
-
-@media only screen and (max-width:420px) {
     #mobile-1 {
         padding-top: 80px;
         padding-left: 25px;
         width: 800px;
         margin: 0 auto;
       }
-}
 
-@media only screen and (max-width:420px) {
     #mobile-2 {
         padding-top: 80px;
         padding-left: 25px;
         width: 800px;
         margin: 0 auto;
       }
-}
 
-@media only screen and (max-width:420px) {
     .chair {
         width: 100px;
         height: auto;
         margin-top: 10px;
         padding: 10px;
     }
-}
 
-@media only screen and (max-width:420px) {
     .button {
         background-color: black;
         color: #ffffff;
@@ -123,9 +103,7 @@ h3 {
         max-width: 100%;
         white-space: nowrap;
     }
-}
 
-@media only screen and (max-width:420px) {
     h3 {
         font-size: 20px;
         margin-top: 10px;
